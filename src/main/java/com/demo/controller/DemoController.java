@@ -11,4 +11,10 @@ public class DemoController
 	{
 		return "<h1>hi</h1>";
 	}
+	
+	@RequestMapping("/hello")
+	public String getHello()
+	{
+		return "<h1>hello</h1>";
+	}
 }
